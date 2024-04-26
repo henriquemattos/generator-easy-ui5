@@ -4,6 +4,11 @@
     "node": true,
     "es6": true
   },
+  "ignores": {
+    "plugin-generators/",
+    "test/",
+    "node_modules/"
+  },
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module"
